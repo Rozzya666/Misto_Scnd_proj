@@ -1,0 +1,1140 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 10px;
+  font: inherit;
+  vertical-align: baseline;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  color: white;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .elements_menu {
+    -webkit-transform: translate(0px, 10%);
+            transform: translate(0px, 10%);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 768px) {
+  .elements_menu {
+    -webkit-transform: translate(0px, 10%);
+            transform: translate(0px, 10%);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .menu_list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .menu_list > li {
+    padding: 10px 0;
+  }
+  .elements_menu {
+    -webkit-transform: translate(0px, 10%);
+            transform: translate(0px, 10%);
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+.unique_stylelize_p {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 22px;
+  /* identical to box height, or 183% */
+  /* dark */
+  color: #121212;
+  opacity: 0.9;
+}
+
+.unique_stylelize_h6 {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #121212;
+}
+
+.unique_stylelize_h5 {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 13px;
+  text-align: right;
+  letter-spacing: 0.06em;
+  /* dark */
+  color: #121212;
+  opacity: 0.6;
+}
+
+h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 1.12rem;
+  line-height: 1.5rem;
+  /* or 34px */
+}
+
+h4 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.8rem;
+  line-height: 1.25rem;
+  /* or 29px */
+  text-align: right;
+  /* white */
+  color: #FFFFFF;
+  max-width: 11rem;
+}
+
+.women_model1 {
+  background-image: url(../../img/smallman.jpg);
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 250px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1180px;
+}
+
+.banner_title {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 25px;
+}
+
+.banner_page {
+  background: #FFFFFF;
+  border-radius: 4px;
+  padding: 24px 32px;
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: uppercase;
+  height: auto;
+  max-width: 290px;
+  margin: 0 auto;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  letter-spacing: 0.06em;
+}
+
+.small_banner {
+  background: #FFFFFF;
+  border-radius: 4px;
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  /* identical to box height, or 157% */
+  padding: 13px 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 16px 0 32px 0;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+}
+
+header h2 {
+  font-family: 'Playfair Display';
+  font-size: 36px;
+  line-height: 42px;
+  color: #121212;
+}
+
+header .menu_body .menu_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+header .menu_body .menu_list .menu_link:hover {
+  text-decoration: underline;
+}
+
+header .menu_body .menu_list .elements_menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: absolute;
+  top: 100%;
+  padding: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  right: 0;
+  width: 100%;
+  gap: 80px;
+  background-color: white;
+  z-index: 10;
+  pointer-events: all;
+}
+
+header .menu_body .menu_list .elements_menu li {
+  margin-bottom: 10px;
+}
+
+header .menu_body .menu_list .elements_menu li:hover {
+  text-decoration: underline;
+}
+
+header .menu_body .menu_list .elements_menu li:last-child {
+  margin: 0;
+}
+
+header .inner_icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 18px;
+}
+
+.menu_arrow {
+  display: none;
+}
+
+.row_uppermenu h2 {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #121212;
+}
+
+.row_uppermenu .top_sales {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.row_uppermenu .top_sales img {
+  max-width: 160px;
+}
+
+.row_uppermenu a {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 34px;
+  /* or 262% */
+  /* dark */
+  color: #121212;
+  opacity: 0.8;
+}
+
+body._pc .menu_list > li:hover .elements_menu {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  pointer-events: all;
+}
+
+body._touch .menu_list > li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body._touch .menu_arrow {
+  display: block;
+  margin: 0px 0px 0px 5px;
+  width: 10px;
+  height: 10px;
+  -webkit-transition: -webkit-transform 0.3s ease 0s;
+  transition: -webkit-transform 0.3s ease 0s;
+  transition: transform 0.3s ease 0s;
+  transition: transform 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 10px solid #000;
+}
+
+body._touch .menu_link {
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+body._touch .menu_list > li._active .elements_menu {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translate(0px, 0px);
+          transform: translate(0px, 0px);
+  pointer-events: all;
+}
+
+body._touch .menu_list > li._active .menu_arrow {
+  -webkit-transform: rotate(-180deg);
+          transform: rotate(-180deg);
+}
+
+.main_photos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+}
+
+.main_photos .big_photo {
+  background-image: url(../img/bigphoto.jpg);
+  min-height: 345px;
+  width: 100%;
+  max-width: 540px;
+  background-size: cover;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main_photos .big_photo .btns_banner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 100%;
+}
+
+.main_photos .big_photo .btns_banner .circle_btn {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: white;
+  margin: 24px;
+}
+
+.main_photos .other_photo .two_smallphoto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+}
+
+.main_photos .other_photo .two_smallphoto .photowoman {
+  background-image: url(../img/smallwoman.jpg);
+  background-size: cover;
+  height: 160px;
+  width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main_photos .other_photo .two_smallphoto .photoman {
+  background-image: url(../img/smallman.jpg);
+  background-size: cover;
+  height: 160px;
+  width: 250px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main_photos .other_photo .last_photo {
+  margin-top: 30px;
+}
+
+.main_photos .other_photo .last_photo .mediumphoto {
+  background-image: url(../img/medium.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 260px;
+  min-width: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.stocks_for_client {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 32px 0;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 15px;
+}
+
+.stocks_for_client .general_set {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+.catalogue_women .header_catalogue_women {
+  padding-top: 96px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+}
+
+.catalogue_women .header_catalogue_women .menu_inner_catalogue_women {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 32px;
+}
+
+.catalogue_women .header_catalogue_women .menu_inner_catalogue_women .using_page {
+  opacity: 1;
+}
+
+.catalogue_women .catalogue_clothes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 30px;
+  margin: 50px 0;
+}
+
+.catalogue_women .catalogue_clothes .clothes p {
+  padding: 12px 0;
+}
+
+.catalogue_women .catalogue_clothes .clothes .undertitle_describe {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+  /* dark */
+  color: #121212;
+  opacity: 0.6;
+}
+
+.catalogue_women .catalogue_clothes .clothes .price_and_quality {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.catalogue_women .catalogue_clothes .clothes .price_and_quality h6 {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  /* identical to box height */
+  /* dark */
+  color: #121212;
+}
+
+.catalogue_women a .see_more {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  opacity: 0.8;
+  padding: 16px 0;
+  border: 1px solid black;
+}
+
+.newseason_and_sales .new_collection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  gap: 30px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 96px 0;
+}
+
+.newseason_and_sales .new_collection .new_season {
+  background-image: url(../img/newseason.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 540px;
+  height: 260px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.newseason_and_sales .new_collection .sales {
+  background-image: url(../img/sales.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 540px;
+  height: 260px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.collection_banner {
+  padding: 16px 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: #fff;
+  margin: 0 auto;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.collection_banner h6 {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.06em;
+  color: #121212;
+  opacity: 0.6;
+}
+
+.collection_banner h2 {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.06em;
+  color: #121212;
+}
+
+.stock_and_promo {
+  background: -webkit-gradient(linear, left top, left bottom, from(#F3F2F2), to(#DCDBDB));
+  background: linear-gradient(180deg, #F3F2F2 0%, #DCDBDB 100%);
+}
+
+.stock_and_promo .block_promo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 50px;
+  padding-top: 60px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.stock_and_promo .block_promo .promocode {
+  text-align: center;
+  margin-right: 30px;
+  text-transform: uppercase;
+}
+
+.stock_and_promo .block_promo .promocode h6 {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #121212;
+  width: 250px;
+  padding: 16px 0 32px;
+}
+
+.stock_and_promo .block_promo .promocode h6 span {
+  color: #cc0099;
+}
+
+.stock_and_promo .block_promo .promocode p {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 13px;
+  color: #121212;
+  opacity: 0.4;
+}
+
+.stock_and_promo .block_promo .promocode .form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 24px;
+}
+
+.stock_and_promo .block_promo .promocode .form input {
+  border: none;
+  text-align: center;
+  padding: 23px 0;
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  color: #121212;
+  opacity: 0.7;
+}
+
+.stock_and_promo .block_promo .promocode .form button {
+  padding: 23px 0;
+  border: none;
+  background-color: #121212;
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 18px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  opacity: 0.9;
+}
+
+.latest_blog .header_catalogue_women {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 96px;
+}
+
+.latest_blog .header_catalogue_women a {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  /* dark */
+  color: #121212;
+  opacity: 0.6;
+}
+
+.latest_blog .last_fashion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 96px 0;
+}
+
+.latest_blog .last_fashion .easiest_way {
+  background-image: url(../img/last_block_img/first.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 360px;
+  height: 276px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 70px auto;
+}
+
+.latest_blog .last_fashion .easiest_way .banner_talk {
+  padding: 24px 13px;
+  margin: 0 36px -70px 24px;
+  background-color: #fff;
+  width: auto;
+}
+
+.latest_blog .last_fashion .easiest_way .banner_talk h5 {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 22px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #121212;
+  text-align: left;
+  opacity: 1;
+  margin-bottom: 8px;
+}
+
+.latest_blog .last_fashion .easiest_way .banner_talk p {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #121212;
+  opacity: 0.8;
+}
+
+.upper_footer {
+  background: #121212;
+}
+
+.upper_footer .under_form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 12px 0;
+  gap: 30px;
+}
+
+.upper_footer .under_form .sociable_networks {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 14px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.upper_footer .under_form h4 {
+  text-transform: uppercase;
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.06em;
+}
+
+.upper_footer .under_form .block_underform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 12px;
+}
+
+.upper_footer .under_form .block_underform button {
+  background-color: #121212;
+  color: white;
+  border: 1px solid white;
+  padding: 6px 16px;
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+  margin: 0 auto;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.upper_footer .under_form .block_underform input {
+  opacity: 0.2;
+  padding: 7px 16px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.callback {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 40px 0;
+}
+
+.callback .information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  gap: 16px;
+  width: 250px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+}
+
+.callback .information h5 {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #121212;
+}
+
+.callback .information p {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 34px;
+  color: #121212;
+  opacity: 0.9;
+}
+
+.callback .information .icons_and_contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 12px;
+}
+
+.add_upperinform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.add_upperinform .previos_a {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 18px;
+  color: #121212;
+  opacity: 0.6;
+}
+
+.add_upperinform .active_a {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 18px;
+  color: #121212;
+}
+
+.add_upperinform .get_inform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
+}
+
+.add_upperinform .nav_inform {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 10px;
+}
+
+.add_upperinform .nav_inform .triangle_mini {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 3px 0 3px 10px;
+  border-color: transparent transparent transparent #050505;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #121212;
+  padding-bottom: 24px;
+}
+
+.filture_and_cataloge {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 42px 0;
+}
+
+.filture_and_cataloge h5 {
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 15px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #121212;
+  opacity: 0.6;
+}
+
+.filture_and_cataloge .filture {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 17px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.filture_and_cataloge .cataloge {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 32px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.square_mini {
+  margin: 10px auto 80px;
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+.square_mini:hover {
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+  -webkit-transition: -webkit-transform 0.2s ease 0s;
+  transition: -webkit-transform 0.2s ease 0s;
+  transition: transform 0.2s ease 0s;
+  transition: transform 0.2s ease 0s, -webkit-transform 0.2s ease 0s;
+}
+/*# sourceMappingURL=style.css.map */

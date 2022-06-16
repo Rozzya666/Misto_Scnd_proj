@@ -1,0 +1,90 @@
+.unique_stylelize_p{
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    /* identical to box height, or 183% */
+
+
+    /* dark */
+
+    color: #121212;
+
+    opacity: 0.9;
+}
+.unique_stylelize_h6{
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #121212;
+}
+
+.unique_stylelize_h5{
+    font-family: 'Spartan';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    text-align: right;
+    letter-spacing: 0.06em;
+
+    /* dark */
+
+    color: #121212;
+
+    opacity: 0.6;
+}
+h3{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 1.12rem;
+    line-height: 1.5rem;
+    /* or 34px */
+}
+// h5{
+//     font-family: Roboto;
+// font-style: normal;
+// font-weight: normal;
+// font-size: 0.6rem;
+// line-height: 1rem;
+// /* or 22px */
+
+// text-align: right;
+
+// /* white */
+
+// color: #FFFFFF;
+
+// opacity: 0.5;
+// }
+h4{
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 0.8rem;
+line-height: 1.25rem;
+/* or 29px */
+
+text-align: right;
+
+/* white */
+
+color: #FFFFFF;
+max-width: 11rem;
+}
+//////////////////////////////////
+
+.women_model1{
+    background-image: url(../../img/smallman.jpg);
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 250px;
+}
